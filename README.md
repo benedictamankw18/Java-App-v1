@@ -1,25 +1,25 @@
 # Java-App-v1
 
-======================== 
-BUILD OUTPUT DESCRIPTION  
-========================  
-
+======================== <br/>
+BUILD OUTPUT DESCRIPTION  <br/>
+========================  <br/>
+<br/>
 When you build a Java application project that has a main class, the IDE
 automatically copies all of the JAR
 files on the project's classpath to your projects dist/lib folder. The IDE
 also adds each of the JAR files to the Class-Path element in the application
 JAR files manifest file (MANIFEST.MF).
-
+<br/><br/>
 To run the project from the command line, go to the dist folder and
 type the following:
-
+<br/><br/>
 java -jar "try.jar" 
-
+<br/><br/>
 To distribute this project, zip up the dist folder (including the lib folder)
 and distribute the ZIP file.
-
+<br/><br/>
 Notes:
-
+<br/><br/>
 * If two JAR files on the project classpath have the same name, only the first
 JAR file is copied to the lib folder.
 * Only JAR files are copied to the lib folder.
